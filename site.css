@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    color: var(--lightblue);
+    color: var(--darkblue);
     text-decoration: none;
 }
 
@@ -214,6 +214,10 @@ section {
     color: white;
 }
 
+.speakers a {
+    color: var(--lightblue);
+}
+
 .speakers section {
     text-align: center;
 }
@@ -272,7 +276,7 @@ section {
 
 @media (min-width: 1200px) {
     .partners-container {
-        padding-block: 10rem;
+        padding-block: 6rem;
     }
 }
 
@@ -282,8 +286,8 @@ section {
     text-align: center;
 }
 
-.partner img {
-    width: 100%;
+.partner img.logo {
+    height: 55px;
 }
 
 @media (min-width: 1200px) {
