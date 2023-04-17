@@ -267,7 +267,12 @@ section {
     justify-content: center;
     row-gap: 3rem;
     column-gap: 10rem;
-    padding-block: 10rem;
+}
+
+@media (min-width: 1200px) {
+    .partners-container {
+        padding-block: 10rem;
+    }
 }
 
 .partner {
