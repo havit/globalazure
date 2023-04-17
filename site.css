@@ -79,6 +79,7 @@ h2 {
     .hero-container {
         display: flex;
         gap: 5rem;
+        margin-block: 8rem;
     }
 }
 
@@ -295,6 +296,7 @@ section {
 
 .program p {
     text-align: center;
+    margin-block: 8rem;
 }
 
 .partners, .program, .speakers, footer {
