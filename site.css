@@ -94,7 +94,7 @@ h2 {
 }
 
 .hero-cards {
-    --card-size: 125px;
+    --card-size: 135px;
     display: grid;
     grid-template-columns: var(--card-size) var(--card-size);
     grid-template-rows: var(--card-size) var(--card-size);
