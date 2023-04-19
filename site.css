@@ -26,11 +26,22 @@ h1 {
     font-size: 2rem;
     font-weight: 200;
     margin-top: 1rem;
+    margin-bottom: 1rem
+}
+
+.lead {
+    margin-bottom: 3rem;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, .75);
 }
 
 @media (min-width: 1200px) {
     h1 {
         font-size: 4rem;
+    }
+
+    .lead {
+        font-size: 1.25rem;
     }
 }
 
