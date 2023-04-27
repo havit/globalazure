@@ -326,6 +326,13 @@ section {
     }
 }
 
+@media (min-width: 1200px) {
+    .program-container {
+        margin-inline: auto;
+        max-width: 1000px;
+    }
+}
+
 .program p {
     text-align: center;
     margin-block: 8rem;
