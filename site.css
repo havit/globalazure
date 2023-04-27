@@ -264,7 +264,7 @@ section {
 
 .speaker {
     text-align: center;
-    flex-basis: 250px;
+    flex-basis: 350px;
     margin-block: 2rem;
 }
 
@@ -346,4 +346,55 @@ footer p {
     text-decoration-style: dashed;
     -webkit-text-underline-position: under;
     text-underline-position: under;
+}
+
+.sz-powered-by {
+    display: none;
+}
+
+.sz-session__tags, 
+.sz-sessions--list,
+.sz-session__speakers {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sz-session__speakers {
+    font-weight: 800;
+}
+
+.sz-session__title {
+    margin: .5rem 0;
+}
+
+.sz-sessions--list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: .75rem;
+}
+
+.sz-session__tags {
+    display: flex;
+    gap: .25rem;
+}
+
+.sz-tag {
+    padding: .25rem .5rem;
+    border-radius: .25rem;
+    background-color: var(--lightblue);
+    color: var(--white);
+    font-size: .75rem;
+    font-weight: 600;
+}
+
+.sz-session {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.program .sz-session__description {
+    text-align: left;
+    margin: 1rem 0;
 }
