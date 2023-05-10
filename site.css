@@ -414,6 +414,7 @@ footer p {
 .program .sz-session__description {
     text-align: left;
     margin: 1rem 0;
+    color: rgba(0, 0, 0, 0.75);
 }
 
 .sz-tabs {
@@ -470,4 +471,8 @@ footer p {
 
 .sz-tab-container--active {
     display: block;
+}
+
+.sz-session__questions {
+    display: none;
 }
