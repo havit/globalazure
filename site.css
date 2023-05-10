@@ -370,6 +370,10 @@ footer p {
     font-weight: 800;
 }
 
+.sz-session__speakers a {
+    pointer-events: none;
+}
+
 .sz-session__title {
     margin: .5rem 0;
 }
@@ -379,6 +383,7 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: .75rem;
+    margin: 0 2rem;
 }
 
 .sz-session__tags {
@@ -404,4 +409,60 @@ footer p {
 .program .sz-session__description {
     text-align: left;
     margin: 1rem 0;
+}
+
+.sz-tabs {
+    display: flex;
+    list-style-type: none;
+    padding: 2rem 0;
+    background-color: hsla(0,0%,100%,0.8);
+    position: sticky;
+    top: 0;
+    backdrop-filter: saturate(120%) blur(20px);
+    -webkit-backdrop-filter: saturate(120%) blur(20px);
+}
+
+.sz-tabs .sz-tabs__item {
+    flex: 1 1 auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) { 
+    .sz-tabs .sz-tabs__item {
+        font-size: 1.25rem;
+    }
+}
+
+.sz-tabs__item:hover a,
+.sz-tabs__item--active a {
+    border-bottom: 3px solid var(--yellow);
+}
+
+.sz-tabs__item--active a {
+    font-weight: 800;
+}
+
+.sz-session__room,
+.sz-session__time,
+.sz-session__tags {
+    margin: .5rem 0;
+}
+
+.sz-session__room,
+.sz-session__time {
+    font-size: .875rem;
+    display: inline-block;
+}
+
+.sz-session__time {
+    font-weight: 800;
+}
+
+.sz-tab-container {
+    display: none;
+} 
+
+.sz-tab-container--active {
+    display: block;
 }
