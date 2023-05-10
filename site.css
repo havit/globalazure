@@ -450,8 +450,7 @@ footer p {
 }
 
 .sz-session__room,
-.sz-session__time,
-.sz-session__tags {
+.sz-session__time {
     margin: .5rem 0;
 }
 
