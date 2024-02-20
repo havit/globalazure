@@ -334,7 +334,8 @@ section {
     }
 }
 
-.program p {
+.program p,
+.program h3 {
     text-align: center;
     margin-block: 8rem;
 }
