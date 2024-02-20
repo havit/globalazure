@@ -120,6 +120,13 @@ h2 {
     justify-content: center;
 }
 
+.hero-cards a {
+    color: var(--white);
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
 @media (min-width: 1200px) {
     .hero-cards {
         --card-size: 200px;
