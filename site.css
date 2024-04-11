@@ -341,12 +341,6 @@ section {
     }
 }
 
-.program p,
-.program h3 {
-    text-align: center;
-    margin-block: 8rem;
-}
-
 .partners, .program, .speakers, footer {
     padding-block: 3rem;;
 }
